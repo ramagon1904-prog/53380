@@ -1,0 +1,5 @@
+accion "ProcesarDescargas" {
+    moverArchivo a "C:/descargas/archivo.txt"
+    usarEscaneoProfundo
+    retornar resultado
+}

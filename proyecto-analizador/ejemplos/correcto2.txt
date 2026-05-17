@@ -1,0 +1,3 @@
+accion "NotificarUsuario" {
+    notificar "El proceso ha terminado de forma exitosa"
+}

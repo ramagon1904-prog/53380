@@ -1,0 +1,17 @@
+{
+  "name": "proyecto-analizador",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.1",
+    "antlr4-cli": "latest"
+  }
+}
