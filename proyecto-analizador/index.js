@@ -57,7 +57,6 @@ lineas.forEach((lineaTxt, index) => {
 
     if (texto.startsWith("accion")) {
         tablaTokens.push({ Lexema: "accion", Token: "PALABRA_RESERVADA", Línea: numLinea });
-        // Capturar el identificador entre comillas
         const matchIdent = texto.match(/"([^"]+)"/);
         if (matchIdent) {
             tablaTokens.push({ Lexema: '"', Token: "DELIMITADOR", Línea: numLinea });
