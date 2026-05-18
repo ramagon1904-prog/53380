@@ -5,7 +5,6 @@ export default class DSLParser extends antlr4.Parser {
         super(input);
     }
     dsl() {
-        // Simulación del árbol sintáctico para el index
         return {
             toStringTree: () => "(dsl (accion accion ProcesarDescargas { (comando moverArchivo a \"C:/descargas/archivo.txt\") (comando usarEscaneoProfundo) (comando retornar resultado) }))"
         };
